@@ -1,0 +1,26 @@
+{
+    "name": "alexandrexandecar/template",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files":[
+            "app/framework/helpers/helpers.php"
+        ]
+    },
+    "scripts":{
+        "server":"php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Alexandre Cardoso",
+            "email": "xandecar@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "config":{
+        "process-timeout":0
+    }
+}
